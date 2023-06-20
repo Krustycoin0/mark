@@ -1,24 +1,22 @@
-
 const hre = require('hardhat');
 
 async function main() {
-    const NFTMarketplace = await hre.ethers.getContractFactory('NFTMarketplace');
-    const nftMarketplace = await NFTMarketplace.deploy();
+	const NFTMarketplace = await hre.ethers.getContractFactory(
+		'NFTMarketplaceTest3'
+	);
+	const nftMarketplace = await NFTMarketplace.deploy();
 
-    await nftMarketplace.deployed();
+	await nftMarketplace.deployed();
 
-    console.log('NFTMarketplace deployed to:', nftMarketplace.address);
+	console.log(
+		'NFTMarketplaceTest3 with 1 ETH deployed to:',
+		nftMarketplace.address
+	);
 }
 
-main()
-    .then(() => process.exit(0))
-    .catch((error) => {
-        console.error(error);
-        process.exit(1);
-    });
-
-/*
-CODE EXPLANATION: 
-This script deploys a contract named "NFTMarketplace" using the Hardhat environment. The deployed contract's address is logged in the console. 
-In case of an error during deployment, an error message is logged in the console and the script exits with a status code of 1.
-*/
+// We recommend this pattern to be able to use async/await everywhere
+// and properly handle errors.
+main().catch((error) => {
+	console.error(error);
+	process.exitCode = 1;
+});
