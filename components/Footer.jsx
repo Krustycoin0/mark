@@ -17,7 +17,7 @@ const Footer = () => {
 
                             <Image src={images.logo02} className='cursor-pointer' objectFit="contain" width={40} height={40} alt="logo" />
                         </Link>
-                        <p className=" dark:text-white text-nft-dark font-semibold text-lg ml-1">Polyplace</p>
+                        <p className=" dark:text-white text-nft-dark font-semibold text-lg ml-1">Lisprocoin</p>
                     </div>
                     <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base mt-6">Get the latest updates</p>
                     <div className="flexBetween md:w-full minlg:w-557 w-357 mt-6 dark:bg-nft-black-2 bg-white border dark:border-nft-black-2 border-nft-gray-2 rounded-lg">
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <div className="flexCenter w-full mt-5 border-t dark:border-nft-black-1 border-nft-gray-1 sm:px-4 px-16">
                 <div className="flexBetween flex-row w-full minmd:w-4/5 sm:flex-col mt-7 mb-0">
-                    <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base">Polyplace Inc. All Rights Reserved.</p>
+                    <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base">Lisprocoin Inc. All Rights Reserved.</p>
                     <div className="flex flex-row sm:mt-4">
                         <div className={`${theme === 'light' ? 'filter invert' : ''} space-x-6`}>
                             <a target="_blank" href="https://github.com/chrisstef" alt="github" rel="noreferrer">
