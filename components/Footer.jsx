@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
                 <div className="flex-1 flexBetweenStart flex-wrap ml-10 md:ml-0 md:mt-8 font-semibold">
                     <div>
-                        <h2 className="font-poppins dark:text-white text-nft-black-1 font-semibold text-xl mb-10">Polyplace</h2>
+                        <h2 className="font-poppins dark:text-white text-nft-black-1 font-semibold text-xl mb-10">Lisprocoin</h2>
                         <ul className="font-poppins text-nft-black-1 dark:text-white">
                             <li className="mb-3">
                                 <a href="https://mumbai.polygonscan.com/address/0xF5f6B924332C350E3Fcd3A50Fc94db822f0B760f" target="_blank" className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3 transition duration-300" rel="noreferrer">Smart Contract</a>
